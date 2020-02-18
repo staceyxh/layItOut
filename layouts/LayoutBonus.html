@@ -10,43 +10,72 @@ body
 div
 {
     display:block;
-    width:400px;
+    width:300px;
     height:200px;
 }
     
 .b1
 {
+    float: left;
+    height: 500px;
     background-color:red;
 }
 
 .b2
 {
+    float: left;
+    height: 500px;
     background-color:yellow;
 }
 
 .b3
 {
+    float:left;
+    height: 500px;
     background-color:blue;
     color:white;
 }
 
 .b4
 {
+    float: left;
+    height: 500px;
     background-color:orange;
 }
 
 .b5
 {
+    position: fixed;
+    height: 250px;
     background-color:purple;
     color:white;
+    animation-name: anima5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
 }
+    @keyframes anima5{
+        25%{background-color: deeppink}
+        50%{background-color: gainsboro}
+        100%{background-color: coral}
+    }
 
 .b6
 {
+    position:fixed;
+    height: 250px;
+    left:308px;
     background-color:darksalmon;
+    animation-name: anima6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
-
+    @keyframes anima6{
+        25%{background-color: hotpink}
+        50%{background-color: antiquewhite}
+        100%{background-color: aqua}
+    }
     
 </style>
 </head>
